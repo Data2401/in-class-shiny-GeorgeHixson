@@ -13,7 +13,7 @@ library(shiny)
 my_ui <- fluidPage(
 
     # Application title
-    titlePanel("Welcome to Shiny!"),
+    titlePanel("Welcome User!"),
     
     # these headings are STATIC (they don't change)
     h2("This is a basic shiny application"),

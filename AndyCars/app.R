@@ -22,7 +22,7 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
             selectInput("chosen_cars",
-                        label = "What cars are you interested in?",
+                        label = "What cars do you want?",
                         choices = car_choices,
                         multiple = T )
         ),

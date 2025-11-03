@@ -21,8 +21,8 @@ ui <- fluidPage(
             sliderInput(inputId = "bins",
                         label = "Number of bins:",
                         min = 5,
-                        max = 50,
-                        value = 30)
+                        max = 35,
+                        value = 10)
         ),
 
         # Show a plot of the generated distribution

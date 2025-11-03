@@ -30,11 +30,11 @@ ui <- fluidPage(
             selectInput(inputId = "color",
                         label = "Color your points by:",
                         choices = color_options  ),
-            selectInput(inputId = "x",
+            selectInput(inputId = "y",
                         label = "Variable on the X axis:",
                         choices = axis_options, 
                         selected = "bill_length_mm"),
-            selectInput(inputId = "y",
+            selectInput(inputId = "x",
                         label = "Variable on the Y axis:",
                         choices = axis_options, 
                         selected = "bill_depth_mm"  )
